@@ -73,8 +73,8 @@
   background-color: red;
 }
 
-.lesson-four-task-sixteen form input:out-of-range {
-  background-color: red;
+.lesson-four-task-sixteen .bg-secondary:out-of-range {
+  background-color: red !important;
 }
 
 .lesson-four-task-seventeen form input:in-range {
