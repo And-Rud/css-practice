@@ -1,0 +1,23 @@
+<main class="main">
+    <div class="service">
+        {{#with hero}}
+        <h2 class="ser_title">{{title}}</h2>
+        <p class="ser_text">{{description}}</p>
+        <button href="{{button.url}}" class="ser_button">{{button.text}}</button>
+        {{/with}}
+    </div>
+    <div class="shop">
+        <h2 class="shop_title">{{about.heading}}</h2>
+        <p class="shop_text">{{about.info}}</p>
+    </div>
+</main>
+
+<article class="article">
+    <div class="art_head">
+        <div class="art_title">Our articles</div>
+        <button class="art_button">View all</button>
+    </div>
+    <div class="card">
+        {{>articleCardDark}}
+    </div>
+</article>
